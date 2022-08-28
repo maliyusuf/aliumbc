@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Multivariable Calculus
+</title>
+<style>
+body {font-family: "Lato", sans-serif;}
+/* From https://www.w3schools.com/howto/howto_js_tabs.asp */
+
+body {
+    background-color: lightblue;
+}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #cdc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+</style>
+</head>
+<body>
+
+<center><h1>Multivariable Calculus</h1></center>
+<p style="text-align: center;">A Full-Semester Course</p>
+<p style="text-align: center;">By Dr. Muhammad Ali Yousuf</p>
+<p style="text-align: center;">Page updated on: November 30, 2017</p>
+
+<p>Click on the buttons below to search for specific information:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Syllabus')">Syllabus</button>
+  <button class="tablinks" onclick="openCity(event, 'Lecture Slides')">Lecture Slides</button>
+  <button class="tablinks" onclick="openCity(event, 'Khan Academy Videos')">Khan Academy Videos</button>
+  <button class="tablinks" onclick="openCity(event, 'Miscellaneous Websites')">Miscellaneous Websites</button>
+  <button class="tablinks" onclick="openCity(event, 'Technology')">Technology</button>
+</div>
+
+<div id="Home" class="tabcontent">
+<h3>Home Page for Multivariable Calculus</h3>
+<p>You may also go back to my main page, <a href="http://pages.jh.edu/~maliyou1/">http://pages.jh.edu/~maliyou1/</a></p>
+</div>
+
+<div id="Syllabus" class="tabcontent">
+
+</div>
+
+<div id="Lecture Slides" class="tabcontent">
+</div>
+
+<div id="Khan Academy Videos" class="tabcontent">
+</div>
+
+
+<div id="Miscellaneous Websites" class="tabcontent">
+</div>
+
+<div id="Technology" class="tabcontent">
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+    
+</body>
+</html> 
