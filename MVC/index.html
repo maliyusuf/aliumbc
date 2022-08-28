@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Multivariable Calculus
+</title>
+<style>
+body {font-family: "Lato", sans-serif;}
+/* From https://www.w3schools.com/howto/howto_js_tabs.asp */
+
+body {
+    background-color: lightblue;
+}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #cdc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+</style>
+</head>
+<body>
+
+<center><h1>Multivariable Calculus</h1></center>
+<p style="text-align: center;">A Full-Semester Course</p>
+<p style="text-align: center;">By Dr. Muhammad Ali Yousuf</p>
+<p style="text-align: center;">Page updated on: March 22, 2018</p>
+
+<p>Click on the buttons below to search for specific information:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Syllabus')">Syllabus</button>
+  <button class="tablinks" onclick="openCity(event, 'Lecture Slides')">Lecture Slides</button>
+  <button class="tablinks" onclick="openCity(event, 'Khan Academy Videos')">Khan Academy Videos</button>
+  <button class="tablinks" onclick="openCity(event, 'Miscellaneous Websites')">Miscellaneous Websites</button>
+  <button class="tablinks" onclick="openCity(event, 'Technology')">Technology</button>
+</div>
+
+<div id="Home" class="tabcontent">
+<h3>Home Page for Multivariable Calculus</h3>
+Please note that this is not the CTY course of the same name, though I teach that one too. This is a selection of resources I have
+collected over a long period of time for my past courses. I have taught MVC for more than 20 years in a real class room format
+at various places (Pakistan, Mexico, USA) and various langauges (Urdu, Spanish, English). The list includes <a href="http://www.itesm.mx/wps/wcm/connect/Campus/CSF/Santa+Fe/">
+Tec de Monterrey, Santa Fe Campus, Mexico</a>, and <a href="http://www.hamdard.edu.pk/" target="_blank">Hamdard University, Karachi, Pakistan</a>. 
+<p>You may also go back to my main page, <a href="http://pages.jh.edu/~maliyou1/" target="_blank">http://pages.jh.edu/~maliyou1/</a></p>
+  
+</div>
+
+<div id="Syllabus" class="tabcontent">
+<h3>Syllabus</h3>
+<p>Topics covered varied from course to course but generally included:</p>
+<ul>
+<li>Vectors and the Geometry of Space</li>
+<li>Vector Functions</li>
+<li>Partial Derivatives</li>
+<li>Multiple Integrals</li>
+<li>Vector Calculus</li>
+</ul>
+
+<p>The course used various texts, including, most recently:</p>
+Multivariable Calculus (7th or 8th edition) by James Stewart. </br>
+ISBN-13 for 7th edition: 978-0538497879</br>
+ISBN-13 for 8th edition: 978-1285741550</br> 
+
+</div>
+
+<div id="Lecture Slides" class="tabcontent">
+<h3>Lecture Set 1</h3>
+<p>Currently there are two sets of lecture slides avaibalble. First are from my <a href="http://pages.jh.edu/~maliyou1/MVC/Introduccion a Mate III.zip" target="_blank">MVC course offered in Mexico</a> (download as single zip file) in 2006. 
+It used a different textbook and you will find Spanish here and there but otherwise the notes are in English.</p>
+
+<h3>Lecture Set 2</h3>
+<p>The second set is from the textbook iteslf. I hvae not used them in a real classroom setting and online students
+have access to another set of video and written lectures. (All presentations copyright by the publisher).</p>
+<ul>
+<h3>Chapter 12: Vectors and the Geometry of Space</h3>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_12_01.pdf" target="_blank">	12.1 - Three-Dimensional Coordinate Systems	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_12_02.pdf" target="_blank">	12.2 - Vectors	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_12_03.pdf" target="_blank">	12.3 - The Dot Product	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_12_04.pdf" target="_blank">	12.4 - The Cross Product	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_12_05.pdf" target="_blank">	12.5 - Equations of Lines and Planes	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_12_06.pdf" target="_blank">	12.6 - Cylinders and Quadric Surfaces	</a></li>
+<h3>Chapter 13: Vector Functions</h3>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_13_01.pdf" target="_blank">	13.1 - Vector Functions and Space Curves	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_13_02.pdf" target="_blank">	13.2 - Derivatives and Integrals of Vector Functions	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_13_03.pdf" target="_blank">	13.3 - Arc Length and Curvature	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_13_04.pdf" target="_blank">	13.4 - Motion in Space: Velocity and Acceleration	</a></li>
+<h3>Chapter 14: Partial Derivatives</h3>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_14_01.pdf" target="_blank">	14.1 - Functions of Several Variables	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_14_02.pdf" target="_blank">	14.2 - Limits and Continuity	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_14_03.pdf" target="_blank">	14.3 - Partial Derivatives	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_14_04.pdf" target="_blank">	14.4 - Tangent Planes and Linear Approximations	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_14_05.pdf" target="_blank">	14.5 - The Chain Rule	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_14_06.pdf" target="_blank">	14.6 - Directional Derivatives and the Gradient Vector	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_14_07.pdf" target="_blank">	14.7 - Maximum and Minimum Values	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_14_08.pdf" target="_blank">	14.8 - Lagrange Multipliers	</a></li>
+<h3>Chapter 15: Multiple Integrals</h3>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_15_01.pdf" target="_blank">	15.1 - Double Integrals over Rectangles	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_15_02.pdf" target="_blank">	15.2 - Iterated Integrals	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_15_03.pdf" target="_blank">	15.3 - Double Integrals over General Regions	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_15_04.pdf" target="_blank">	15.4 - Double Integrals in Polar Coordinates	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_15_05.pdf" target="_blank">	15.5 - Applications of Double Integrals	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_15_06.pdf" target="_blank">	15.6 - Surface Area	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_15_07.pdf" target="_blank">	15.7 - Triple Integrals	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_15_08.pdf" target="_blank">	15.8 - Triple Integrals in Cylindrical Coordinates	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_15_09.pdf" target="_blank">	15.9 - Triple Integrals in Spherical Coordinates	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_15_010.pdf" target="_blank">	15.10 - Change in Variables in Multiple Integrals	</a></li>
+<h3>Chapter 16: Vector Calculus</h3>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_16_01.pdf" target="_blank">	16.1 - Vector Fields	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_16_02.pdf" target="_blank">	16.2 - Line Integrals	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_16_03.pdf" target="_blank">	16.3 - The Fundamental Theorem for Line Integrals	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_16_04.pdf" target="_blank">	16.4 - Green's Theorem	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_16_05.pdf" target="_blank">	16.5 - Curl and Divergence	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_16_06.pdf" target="_blank">	16.6 - Parametric Surfaces and Their Areas	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_16_07.pdf" target="_blank">	16.7 - Surface Integrals	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_16_08.pdf" target="_blank">	16.8 - Stoke's Theorem	</a></li>
+<li><a href="..\MVC\Calculus_Stewart\StewartCalc7e_16_09.pdf" target="_blank">	16.9 - The Divergence Theorem	</a></li>
+</ul>
+</div>
+
+<div id="Khan Academy Videos" class="tabcontent">
+<p>
+Khan Academy has a set of 175+ lectures on <a href="https://www.youtube.com/playlist?list=PLSQl0a2vh4HC5feHa6Rc5c0wbRTx56nF7">
+Multivariable Calculus</a>. The set covers the following topics but you need to go to their site to find direct links: </p>
+<ol>
+<li>Multivariable functions </li>
+<li>Representing points in 3d </li>
+<li>Introduction to 3d graphs </li>
+<li>Interpreting graphs with slices </li>
+<li>Contour plots </li>
+<li>Parametric curves </li>
+<li>Parametric surfaces </li>
+<li>Vector fields, introduction </li>
+<li>Fluid flow and vector fields </li>
+<li>3d vector fields, introduction </li>
+<li>3d vector field example </li>
+<li>Transformations, part 1 </li>
+<li>Transformations, part 2 </li>
+<li>Transformations, part 3 </li>
+<li>Partial derivatives, introduction</li>
+<li>Partial derivatives and graphs</li>
+<li>Formal definition of partial derivatives</li>
+<li>Symmetry of second partial derivatives</li>
+<li>Gradient</li>
+<li>Gradient and graphs</li>
+<li>Directional derivative</li>
+<li>Directional derivative, formal definition</li>
+<li>Directional derivatives and slope</li>
+<li>Why the gradient is the direction of steepest ascent</li>
+<li>Gradient and contour maps</li>
+<li>Position vector valued functions </li>
+<li>Derivative of a position vector valued function </li>
+<li>Differential of a vector valued function </li>
+<li>Vector valued function derivative example </li>
+<li>Multivariable chain rule</li>
+<li>Multivariable chain rule intuition</li>
+<li>Vector form of the multivariable chain rule</li>
+<li>Multivariable chain rule and directional derivatives</li>
+<li>More formal treatment of multivariable chain rule</li>
+<li>Curvature intuition</li>
+<li>Curvature formula, part 1</li>
+<li>Curvature formula, part 2</li>
+<li>Curvature formula, part 3</li>
+<li>Curvature formula, part 4</li>
+<li>Curvature formula, part 5</li>
+<li>Curvature of a helix, part 1</li>
+<li>Curvature of a helix, part 2</li>
+<li>Curvature of a cycloid</li>
+<li>Computing the partial derivative of a vector-valued function</li>
+<li>Partial derivative of a parametric surface, part 1</li>
+<li>Partial derivative of a parametric surface, part 2</li>
+<li>Partial derivatives of vector fields</li>
+<li>Partial derivatives of vector fields, component by component</li>
+<li>Divergence intuition, part 1</li>
+<li>Divergence intuition, part 2</li>
+<li>Divergence formula, part 1</li>
+<li>Divergence formula, part 2</li>
+<li>Divergence example</li>
+<li>Divergence notation</li>
+<li>2d curl intuition</li>
+<li>2d curl formula</li>
+<li>2d curl example</li>
+<li>2d curl nuance</li>
+<li>Describing rotation in 3d with a vector</li>
+<li>3d curl intuition, part 1</li>
+<li>3d curl intuition, part 2</li>
+<li>3d curl formula, part 1</li>
+<li>3d curl formula, part 2</li>
+<li>3d curl computation example</li>
+<li>Laplacian intuition</li>
+<li>Laplacian computation example</li>
+<li>Explicit Laplacian formula</li>
+<li>Harmonic Functions</li>
+<li>Jacobian prerequisite knowledge</li>
+<li>Local linearity for a multivariable function</li>
+<li>The Jacobian matrix</li>
+<li>Computing a Jacobian matrix</li>
+<li>The Jacobian Determinant</li>
+<li>What is a tangent plane</li>
+<li>Controlling a plane in space</li>
+<li>Computing a tangent plane</li>
+<li>Local linearization</li>
+<li>What do quadratic approximations look like</li>
+<li>Quadratic approximation formula, part 1</li>
+<li>Quadratic approximation formula, part 2</li>
+<li>Quadratic approximation example</li>
+<li>The Hessian matrix</li>
+<li>Expressing a quadratic form with a matrix</li>
+<li>Vector form of multivariable quadratic approximation</li>
+<li>Multivariable maxima and minima</li>
+<li>Saddle points</li>
+<li>Warm up to the second partial derivative test</li>
+<li>Second partial derivative test</li>
+<li>Second partial derivative test intuition</li>
+<li>Second partial derivative test example, part 1</li>
+<li>Second partial derivative test example, part 2</li>
+<li>Constrained optimization introduction</li>
+<li>Lagrange multipliers, using tangency to solve constrained optimization</li>
+<li>Finishing the intro lagrange multiplier example</li>
+<li>Lagrange multiplier example, part 1</li>
+<li>Lagrange multiplier example, part 2</li>
+<li>The Lagrangian</li>
+<li>Meaning of Lagrange multiplier</li>
+<li>Proof for the meaning of Lagrange multipliers</li>
+<li>Introduction to the line integral </li>
+<li>Line integral example 1 </li>
+<li>Line integral example 2 (part 1) </li>
+<li>Line integral example 2 (part 2) </li>
+<li>Line integrals and vector fields </li>
+<li>Using a line integral to find the work done by a vector field example </li>
+<li>Parametrization of a reverse path </li>
+<li>Scalar field line integral independent of path direction </li>
+<li>Vector field line integrals dependent on path direction </li>
+<li>Path independence for line integrals </li>
+<li>Closed curve line integrals of conservative vector fields </li>
+<li>Example of closed line integral of conservative field </li>
+<li>Second example of line integral of conservative vector field </li>
+<li>Double integral 1 </li>
+<li>Double integrals 2 </li>
+<li>Double integrals 3 </li>
+<li>Double integrals 4 </li>
+<li>Double integrals 5 </li>
+<li>Double integrals 6 </li>
+<li>Triple integrals 1 </li>
+<li>Triple integrals 2 </li>
+<li>Triple integrals 3 </li>
+<li>Introduction to parametrizing a surface with two parameters </li>
+<li>Determining a position vector-valued function for a parametrization of two parameters </li>
+<li>Partial derivatives of vector-valued functions </li>
+<li>Introduction to the surface integral </li>
+<li>Example of calculating a surface integral part 1 </li>
+<li>Example of calculating a surface integral part 2 </li>
+<li>Example of calculating a surface integral part 3 </li>
+<li>Surface integral example part 1: Parameterizing the unit sphere </li>
+<li>Surface integral example part 2: Calculating the surface differential </li>
+<li>Surface integral example part 3: The home stretch </li>
+<li>Surface integral ex2 part 1: Parameterizing the surface </li>
+<li>Surface integral ex2 part 2: Evaluating integral </li>
+<li>Surface integral ex3 part 1: Parameterizing the outside surface </li>
+<li>Surface integral ex3 part 2: Evaluating the outside surface </li>
+<li>Surface integral ex3 part 3: Top surface </li>
+<li>Surface integral ex3 part 4: Home stretch </li>
+<li>Conceptual understanding of flux in three dimensions </li>
+<li>Constructing a unit normal vector to a surface </li>
+<li>Vector representation of a surface integral </li>
+<li>Green's theorem proof part 1 </li>
+<li>Green's theorem proof (part 2) </li>
+<li>Green's theorem example 1 </li>
+<li>Green's theorem example 2 </li>
+<li>Constructing a unit normal vector to a curve </li>
+<li>2D divergence theorem </li>
+<li>Conceptual clarification for 2D divergence theorem </li>
+<li>Stokes' theorem intuition </li>
+<li>Green's and Stokes' theorem relationship </li>
+<li>Orienting boundary with surface </li>
+<li>Orientation and stokes </li>
+<li>Conditions for stokes theorem </li>
+<li>Stokes example part 1 </li>
+<li>Stokes example part 2: Parameterizing the surface </li>
+<li>Stokes example part 3: Surface to double integral </li>
+<li>Stokes example part 4: Curl and final answer </li>
+<li>Evaluating line integral directly - part 1 </li>
+<li>Evaluating line integral directly - part 2 </li>
+<li>3D divergence theorem intuition </li>
+<li>Divergence theorem example 1 </li>
+<li>Stokes' theorem proof part 1 </li>
+<li>Stokes' theorem proof part 2 </li>
+<li>Stokes' theorem proof part 3 </li>
+<li>Stokes' theorem proof part 4 </li>
+<li>Stokes' theorem proof part 5 </li>
+<li>Stokes' theorem proof part 6 </li>
+<li>Stokes' theorem proof part 7 </li>
+<li>Type I regions in three dimensions </li>
+<li>Type II regions in three dimensions </li>
+<li>Type III regions in three dimensions </li>
+<li>Divergence theorem proof (part 1) </li>
+<li>Divergence theorem proof (part 2) </li>
+<li>Divergence theorem proof (part 3) </li>
+<li>Divergence theorem proof (part 4) </li>
+<li>Divergence theorem proof (part 5) </li>
+
+</ol>
+
+</div>
+
+
+<div id="Miscellaneous Websites" class="tabcontent">
+<p><strong>Other Good MVC Courses and their Websites</strong></p>
+<ul>
+<li><a href="https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/" target="_blank">Multivariable Calculus at MIT</a></li>
+<li><a href="http://www.math.harvard.edu/archive/21a_fall_16/index.html" target="_blank">Multivariable Calculus at Harvard University</a></li>
+<li><a href="https://www.amazon.com/Solutions-Chapters-Stewarts-Multivariable-Calculus/dp/0840049455/ref=sr_1_1?ie=UTF8&qid=1481753666&sr=8-1&keywords=Stewart+-+Multivariable+Calculus+7th+Student+Solution+Manual" target="_blank">Solutions Manual for the textbook, from Amazon</a></li>
+<li><a href="http://www.slader.com/textbook/9780538497817-stewart-calculus-7th-edition/1049/#exercises" target="_blank">Online Answers to ALL problems</a></li>
+<li><a href="https://www.youtube.com/channel/UCUDlvPp1MlnegYXOXzj7DEQ" target="_blank">Krista King's Math Channel</a></li>
+</ul>
+
+<p><strong>Free online books and notes</strong></p>
+<ul>
+<li>Free books at <a href="http://communitycalculus.org" target="_blank">Community Calculus</a>.</li>
+<li>Another textbook for a course in <a href="https://people.math.gatech.edu/~cain/notes/calculus.html" target="_blank">Multivariable Calculus</a>.</li>
+<li>Animated Demonstrations for <a href="http://archives.math.utk.edu/ICTCM/VOL10/C009/paper.html" target="_blank">Multivariable Calculus</a>.</li>
+</ul>
+
+</div>
+
+<div id="Technology" class="tabcontent">
+<h3><strong>Technical Help</strong></h3>
+<p>The objective of this section is to provide resources on online graphing and computational tools:</p>
+<ul>
+<li><a href="https://www.wolframalpha.com/ " target="_blank">Wolfram Alpha  </a></li>
+<li><a href="https://www.wolframalpha.com/input/web-apps/multivariable-calculus-course-assistant/" target="_blank">Wolfram Alpha has a complete collection of apps for Multivariable Calculus</a></li>
+<li><a href="https://www.desmos.com/calculator" target="_blank">Desmos Graphing Calculator  </a></li>
+<li><a href="https://www.desmos.com/calculator/p7vd3cdmei" target="_blank">Desmos based slope field generator </a></li>
+<li><a href="https://www.symbolab.com/" target="_blank">Symbolab (Symbolic Maths with steps)</a></li>
+<li><a href="http://web.monroecc.edu/manila/webfiles/pseeburger/CalcPlot3D/" target="_blank">CalcPlot3D - New (Works in Firefox)  </a></li>
+<li><a href="https://www.geogebra.org/3d" target="_blank">3D Graphing Calculator of GeoGebra</a></li>
+<li><a href="https://technology.cpm.org/general/3dgraph/" target="_blank">CPM 3D Plotter to plot points and plains</a></li>
+</ul>
+
+Widget
+<script type="text/javascript" id="WolframAlphaScriptbf8679a50a63113b582ed22679363a4" src="//www.wolframalpha.com/widget/widget.jsp?id=bf8679a50a63113b582ed22679363a4"></script>
+
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+    
+</body>
+</html> 
